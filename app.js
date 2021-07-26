@@ -44,3 +44,4 @@ app.post('/upload', checkAuth, upload.single('files'), (req, res) =>{
 app.listen(port, () => {
     console.log(`app is running on port ${port}`)
 })
+//the user can upload the file
